@@ -14,8 +14,14 @@ CSS can be used for very basic document text styling — for example,
 ### HOW TO INSERT CSS
 There are three ways of inserting a style sheet:
 
-1. External CSS: With an external style sheet, you can change the look of an entire website by changing just one file! External styles are defined within the <link> element, inside the <head> section of an HTML page: Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section. Example : <!DOCTYPE html>
-![image](https://user-images.githubusercontent.com/122635175/213169176-b080a36b-0d37-4d68-8c64-f25a897ddf44.png)![Uploading image.png…]()
+1. External CSS: With an external style sheet, you can change the look of an entire website by changing just one file! External styles are defined within the <link> element, inside the <head> section of an HTML page: Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section. Example : 
+![image](https://user-images.githubusercontent.com/122635175/213169176-b080a36b-0d37-4d68-8c64-f25a897ddf44.png)
+An external style sheet can be written in any text editor, and must be saved with a .css extension.
+The external .css file should not contain any HTML tags.
+  
+2. Internal CSS: An internal style sheet may be used if one single HTML page has a unique style. The internal style is defined inside the <style> element, inside the head section. Internal styles are defined within the <style> element, inside the <head> section of an HTML page:
+  ![image](https://user-images.githubusercontent.com/122635175/213169917-20835f9e-b8c9-4365-acaf-d2e0c69dcd50.png)
 
-2. Internal CSS:
-3. Inline CSS
+3. Inline CSS: An inline style may be used to apply a unique style for a single element. To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property. Inline styles are defined within the "style" attribute of the relevant element:
+  ![image](https://user-images.githubusercontent.com/122635175/213170205-59967370-d9b0-4f96-8e0e-d9539a8acb18.png)
+
